@@ -41,6 +41,7 @@ body{
 
 .attribution { 
     font-size: 11px; text-align: center; 
+    color: hsl(0,0%,100%,0.75);
 }
 
 .attribution a { 
