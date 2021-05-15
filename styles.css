@@ -6,26 +6,53 @@ body{
     flex-direction: column;
 
     font-size:15px;
-  
-  
-  
-
     /* Align all elements to center */
     align-items: center;
+    justify-content: center;
 
     /* Mobile width */
     width: 375px;;
    
 }
+
+
+
 img {
     width:100%;
     
   
 }
+
 .text-container{
     /* Align all text using text-align */
     background-color: hsl(244,38%,16%);
     text-align: center;
+}
+
+/* Work on desktop layout here */
+
+@media screen and (min-width: 500px){
+    body{
+        background-color: teal;
+        width: auto;
+        height: auto;
+        flex-direction:row-reverse;
+        
+    }
+
+    img{
+        height: auto;
+        width: 50%;
+    }
+
+    .text-container{
+        height: auto;
+        width:50%;
+    }
+    /* Hide attribution first. Fix later */
+    .attribution{ 
+        display:none;
+    }
 }
 
 .text-container > h1 {
