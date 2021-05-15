@@ -30,3 +30,7 @@ body{
     color: hsl(0,0%,100%,0.6)
     
 }
+
+.accent {
+    color: hsl(277, 64%, 61%);
+}
