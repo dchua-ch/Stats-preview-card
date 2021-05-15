@@ -1,5 +1,5 @@
 body{
-    background-color: hsl(233,47%,7%);
+    background-color: hsl(233,47%,7%); /* hue, saturation and lightness */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -10,7 +10,15 @@ body{
 
 }
 
-.text-container {
-    color:white;
+.text-container > h1 {
+    color: hsl(0,0%,100%);
+}
 
+.text-container > p , h3{
+    color: hsl(0,0%,100%,0.75)
+}
+
+.text-container > h2{
+    color: hsl(0,0%,100%,0.6)
+    
 }
