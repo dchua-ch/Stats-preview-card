@@ -4,4 +4,6 @@
 **** Since mobile design is essentially just a column, and desktop design is a row, CSS Flexbox seems suitable for this.
 
 
-* TODO
+* TODO Fix width of text-container to width of image
+* TODO Add accent color to image
+* TODO Start working on desktop layout
