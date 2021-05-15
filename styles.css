@@ -5,12 +5,19 @@ body{
     flex-wrap: nowrap; 
     flex-direction: column;
   
+  
+  
 
     /* Align all elements to center */
     align-items: center;
+
+    /* Mobile width */
+    max-width: 375px;;
+   
 }
-
-
+img {
+    width:100%;
+}
 .text-container{
     /* Align all text using text-align */
     background-color: hsl(244,38%,16%);
