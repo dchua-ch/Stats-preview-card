@@ -1,12 +1,16 @@
 body{
     background-color: hsl(233,47%,7%); /* hue, saturation and lightness */
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }
 
 .flex-container {
     display: flex;
     flex-wrap: nowrap; 
     flex-direction: column;
+
+    /* Justify content */
+    /* justify-content:flex-start; */
 
     /* Align all elements to center */
     align-items: center;
@@ -41,6 +45,7 @@ body{
 
 .attribution { 
     font-size: 11px; text-align: center; 
+    color: hsl(0,0%,100%,0.75);
 }
 
 .attribution a { 
