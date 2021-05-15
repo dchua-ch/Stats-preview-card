@@ -1,0 +1,7 @@
+* Stats preview card - Frontend Mentor
+** Comments
+**** Start with mobile design first and then use a media query to do desktop design.
+**** Since mobile design is essentially just a column, and desktop design is a row, CSS Flexbox seems suitable for this.
+
+
+* TODO
