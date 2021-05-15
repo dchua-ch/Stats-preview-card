@@ -4,7 +4,6 @@ body{
 }
 
 .flex-container {
-    background-color: hsl(244,38%,16%);
     display: flex;
     flex-wrap: nowrap; 
     flex-direction: column;
@@ -12,9 +11,14 @@ body{
     /* Align all elements to center */
     align-items: center;
 
+    /* Define width and height relative to body */
+    width: 90%;
+    height: 70%;
+
 }
 .text-container{
     /* Align all text using text-align */
+    background-color: hsl(244,38%,16%);
     text-align: center;
 }
 
