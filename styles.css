@@ -12,7 +12,7 @@ body{
     align-items: center;
 
     /* Mobile width */
-    max-width: 375px;;
+    width: 375px;;
    
 }
 img {
