@@ -5,9 +5,17 @@ body{
 
 .flex-container {
     background-color: hsl(244,38%,16%);
-    display:flex;
+    display: flex;
+    flex-wrap: nowrap; 
     flex-direction: column;
 
+    /* Align all elements to center */
+    align-items: center;
+
+}
+.text-container{
+    /* Align all text using text-align */
+    text-align: center;
 }
 
 .text-container > h1 {
