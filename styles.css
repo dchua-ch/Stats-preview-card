@@ -31,6 +31,7 @@ img {
     /* Align all text using text-align */
     background-color: hsl(244,38%,16%);
     text-align: center;
+    
 }
 
 /* Work on desktop layout here */
@@ -41,6 +42,7 @@ img {
         width: auto;
         height: auto;
         flex-direction:row-reverse;
+        
         
     }
 
@@ -54,7 +56,11 @@ img {
         height: var(--desktop-element-height);;
         width:40%;
         min-width: 615px;
+        text-align: left;
+        
     }
+
+
     /* Hide attribution first. Fix later */
     .attribution{ 
         display:none;
