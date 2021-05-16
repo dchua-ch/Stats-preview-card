@@ -59,7 +59,7 @@ img {
         width:40%;
         min-width: 615px;
         text-align: left;
-        padding: 10px;
+        padding: var(--desktop-text-container-padding);
         
     }
 
