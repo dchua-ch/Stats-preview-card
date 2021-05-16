@@ -49,6 +49,13 @@ img {
     
 }
 
+.stats-container{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
 /* Work on desktop layout here */
 
 @media screen and (min-width: 500px){
@@ -80,6 +87,12 @@ img {
         padding: var(--desktop-text-container-padding);
         
     }
+    .stats-container{
+        display: flex;
+        flex-direction: row;
+    
+    
+    }
 
 
    
@@ -93,13 +106,17 @@ img {
     font-weight: 700;
 }
 
-.text-container > p , h3{
+.text-container > p {
     font-weight: 400;
     color: hsl(0,0%,100%,0.6)
     
 }
+.stats-container > h3{
+    font-weight: 400;
+    color: hsl(0,0%,100%,0.6)
+}
 
-.text-container > h2{
+.stats-container > h2{
     font-weight: 700;
     color: hsl(0,0%,100%,0.75)
     
