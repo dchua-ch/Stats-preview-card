@@ -1,24 +1,38 @@
 :root {
     --desktop-element-height: 400px;
     --desktop-text-container-padding: 2em; /* Note that em means relative to size of font of element*/
+    --mobile-width: 375px;
+    
 }
 
 body{
-    background-color: hsl(233,47%,7%); /* hue, saturation and lightness */
+    /* background-color: hsl(233,47%,7%); hue, saturation and lightness */
+    background-color: teal; /* this background color is for testing */
     font-family: Inter;
+    font-size:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    
+    /* Mobile width */
+    width: 375px;;
+    
+    
+   
+}
+
+.flex-container{
     display: flex;
     flex-wrap: nowrap; 
     flex-direction: column;
-
-    font-size:15px;
-    /* Align all elements to center */
     align-items: center;
     justify-content: center;
 
-    /* Mobile width */
-    width: 375px;;
-   
+    
+
 }
+
 
 
 
@@ -42,9 +56,13 @@ img {
         background-color: teal;
         width: auto;
         height: auto;
-        flex-direction:row-reverse;
         
         
+        
+    }
+    .flex-container{
+        flex-direction: row-reverse;
+
     }
 
     img{
@@ -64,10 +82,7 @@ img {
     }
 
 
-    /* Hide attribution first. Fix later */
-    .attribution{ 
-        display:none;
-    }
+   
 }
 
 
