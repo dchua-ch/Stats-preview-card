@@ -1,6 +1,6 @@
 :root {
     --desktop-element-height: 400px;
-    --desktop-text-container-padding: 10px;
+    --desktop-text-container-padding: 2em; /* Note that em means relative to size of font of element*/
 }
 
 body{
