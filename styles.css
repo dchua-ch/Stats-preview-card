@@ -75,14 +75,19 @@ img {
 
 .text-container > h1 {
     color: hsl(0,0%,100%);
+    font-weight: 700;
 }
 
 .text-container > p , h3{
-    color: hsl(0,0%,100%,0.75)
+    font-weight: 400;
+    color: hsl(0,0%,100%,0.6)
+    
 }
 
 .text-container > h2{
-    color: hsl(0,0%,100%,0.6)
+    font-weight: 700;
+    color: hsl(0,0%,100%,0.75)
+    
     
 }
 
