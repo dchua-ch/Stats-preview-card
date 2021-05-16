@@ -17,8 +17,10 @@ body{
     align-items: center;
     justify-content: center; 
     
-    /* Mobile width */
-    width: 375px;;
+
+    width: 100vw;
+    height: 100vh;
+        
     
     
    
@@ -30,6 +32,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 375px;
+
 
     
 
@@ -60,17 +64,18 @@ img {
 
 /* Work on desktop layout here */
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 835px){
     body{
         background-color: teal;
-        width: 100vw;
+        /* width: 100vw;
         height: 100vh;
-        
+         */
         
         
     }
     .flex-container{
         flex-direction: row-reverse;
+        width:auto;
 
     }
 
