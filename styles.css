@@ -85,12 +85,15 @@ img {
         min-width: 615px;
         text-align: left;
         padding: var(--desktop-text-container-padding);
+
+        
         
     }
     .stats-container{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        margin-top: 15%;
     
     
     }
@@ -105,11 +108,13 @@ img {
 .text-container > h1 {
     color: hsl(0,0%,100%);
     font-weight: 700;
+    margin: 20px;
 }
 
 .text-container > p {
     font-weight: 400;
-    color: hsl(0,0%,100%,0.6)
+    color: hsl(0,0%,100%,0.6);
+    margin: 20px;
     
 }
 .stat-block > h3{
