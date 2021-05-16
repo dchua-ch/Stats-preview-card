@@ -1,7 +1,9 @@
 :root {
     --desktop-element-height: 400px;
+    --desktop-element-width: 30%;
     --desktop-text-container-padding: 2em; /* Note that em means relative to size of font of element*/
     --mobile-width: 375px;
+  
     
 }
 
@@ -74,15 +76,15 @@ img {
 
     img{
         height: calc(var(--desktop-element-height) + var(--desktop-text-container-padding)*2);
-        width: 40%;
-        min-width: 615px;
+        width: var(--desktop-element-width);
+        /* min-width: 615px; */
         
     }
 
     .text-container{
         height: var(--desktop-element-height);;
-        width:40%;
-        min-width: 615px;
+        width: var(--desktop-element-width);
+        /* min-width: 615px; */
         text-align: left;
         padding: var(--desktop-text-container-padding);
 
