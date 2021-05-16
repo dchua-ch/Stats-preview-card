@@ -1,5 +1,6 @@
 :root {
     --desktop-element-height: 400px;
+    --desktop-text-container-padding: 10px;
 }
 
 body{
@@ -47,9 +48,10 @@ img {
     }
 
     img{
-        height: var(--desktop-element-height);
+        height: calc(var(--desktop-element-height) + var(--desktop-text-container-padding)*2);
         width: 40%;
         min-width: 615px;
+        
     }
 
     .text-container{
@@ -57,6 +59,7 @@ img {
         width:40%;
         min-width: 615px;
         text-align: left;
+        padding: 10px;
         
     }
 
