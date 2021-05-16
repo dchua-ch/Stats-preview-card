@@ -111,12 +111,12 @@ img {
     color: hsl(0,0%,100%,0.6)
     
 }
-.stats-container > h3{
+.stat-block > h3{
     font-weight: 400;
     color: hsl(0,0%,100%,0.6)
 }
 
-.stats-container > h2{
+.stat-block > h2{
     font-weight: 700;
     color: hsl(0,0%,100%,0.75)
     
