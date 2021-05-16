@@ -61,8 +61,8 @@ img {
 @media screen and (min-width: 500px){
     body{
         background-color: teal;
-        width: auto;
-        height: auto;
+        width: 100vw;
+        height: 100vh;
         
         
         
