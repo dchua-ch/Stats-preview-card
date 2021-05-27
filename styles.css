@@ -129,12 +129,13 @@ img {
 }
 .stat-block > h3{
     font-weight: 400;
-    color: hsl(0,0%,100%,0.6)
+    color: hsl(0,0%,100%,0.6);
+    /* font: lexend-deca; */
 }
 
 .stat-block > h2{
     font-weight: 700;
-    color: hsl(0,0%,100%,0.75)
+    color: hsl(0,0%,100%,0.75);
     
     
 }
