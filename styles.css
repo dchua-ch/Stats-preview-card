@@ -44,6 +44,8 @@ body{
 
 img {
     width:100%;
+    /* Use object-fit: coverl to make image clip to maintain aspect ratio when resizing*/
+    object-fit: cover; 
     
   
 }
