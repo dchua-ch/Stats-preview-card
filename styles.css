@@ -3,6 +3,7 @@
     --desktop-element-width: 30%;
     --desktop-text-container-padding: 2em; /* Note that em means relative to size of font of element*/
     --mobile-width: 375px;
+    --corner-radius: 15px;
   
     
 }
@@ -47,6 +48,7 @@ img {
     width:100%;
     /* Use object-fit: coverl to make image clip to maintain aspect ratio when resizing*/
     object-fit: cover; 
+    border-radius: var(--corner-radius) var(--corner-radius) 0 0;
     
   
 }
@@ -56,6 +58,7 @@ img {
     background-color: hsl(244,38%,16%);
     text-align: center;
     width:100%;
+    border-radius: 0 0 var(--corner-radius) var(--corner-radius);
    
     
 }
@@ -72,9 +75,7 @@ img {
 @media screen and (min-width: 835px){
     body{
         background-color: teal;
-        /* width: 100vw;
-        height: 100vh;
-         */
+     
         
         
     }
@@ -87,16 +88,17 @@ img {
     img{
         height: calc(var(--desktop-element-height) + var(--desktop-text-container-padding)*2);
         width: var(--desktop-element-width);
-        /* min-width: 615px; */
+        border-radius: 0 var(--corner-radius) var(--corner-radius) 0;
+        
         
     }
 
     .text-container{
         height: var(--desktop-element-height);;
         width: var(--desktop-element-width);
-        /* min-width: 615px; */
         text-align: left;
         padding: var(--desktop-text-container-padding);
+        border-radius: var(--corner-radius) 0 0 var(--corner-radius);
 
         
         
