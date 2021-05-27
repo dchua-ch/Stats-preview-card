@@ -9,8 +9,9 @@
 }
 
 body{
-    /* background-color: hsl(233,47%,7%); hue, saturation and lightness */
-    background-color: teal; /* this background color is for testing */
+    /* hue, saturation and lightness */
+    background-color: hsl(233,47%,7%); 
+    /* background-color: teal; this background color is for testing */
     font-family: Inter;
     font-size:15px;
     display: flex;
@@ -73,12 +74,6 @@ img {
 /* Work on desktop layout here */
 
 @media screen and (min-width: 835px){
-    body{
-        background-color: teal;
-     
-        
-        
-    }
     .flex-container{
         flex-direction: row-reverse;
         width:auto;
