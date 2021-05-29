@@ -46,18 +46,33 @@ body{
     
 
 }
-
-
-
-
 img {
     width:100%;
-    /* Use object-fit: coverl to make image clip to maintain aspect ratio when resizing*/
+    height: 100%;
+    /* Use object-fit: cover to make image clip to maintain aspect ratio when resizing*/
     object-fit: cover; 
     border-radius: var(--corner-radius) var(--corner-radius) 0 0;
+    z-index: 2;
+    opacity: 0.5;
+    
+    
+    
     
   
 }
+
+.img-div {
+    width:100%;
+    background-color: rgb(123, 3, 184);
+  
+    z-index: 1;
+    border-radius: var(--corner-radius) var(--corner-radius) 0 0;
+
+
+}
+
+
+
 
 .text-container{
     /* Align all text using text-align */
