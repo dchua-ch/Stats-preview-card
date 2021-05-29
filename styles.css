@@ -6,7 +6,7 @@
     --corner-radius: 7.5px;
 
     /* For text-margin, set width using rem as different font-sizes are used for different text elements */
-    --text-margin: 1rem; 
+    --text-side-margin: 10%; 
   
     
 }
@@ -71,17 +71,19 @@ img {
 .stats-container{
     display: flex;
     flex-direction: column;
-    padding: var(--text-margin)
+    padding-left: var(--text-side-margin);
+    padding-right: var(--text-side-margin);
+
 
 
 }
 
 /* Work on desktop layout here */
 
-@media screen and (min-width: 835px){
+@media screen and (min-width: 922px){
     .flex-container{
         flex-direction: row-reverse;
-        width:auto;
+        width: 100%;
 
     }
 
@@ -108,7 +110,7 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 20%;
+        margin-top: 3rem;
     
     
     }
@@ -123,13 +125,18 @@ img {
 .text-container > h1 {
     color: hsl(0,0%,100%);
     font-weight: 700;
-    margin: var(--text-margin);
+    margin-left: var(--text-side-margin);
+    margin-right: var(--text-side-margin);
+    margin-top: 2rem;;
+
 }
 
 .text-container > p {
     font-weight: 400;
     color: hsl(0,0%,100%,0.6);
-    margin: var(--text-margin);
+    margin-left: var(--text-side-margin);
+    margin-right: var(--text-side-margin);
+    margin-top: 2rem;
  
     
 }
@@ -137,7 +144,7 @@ img {
 
 .stat-block > h2{
     font-weight: 700;
-    color: hsl(0,0%,100%,0.75);
+    color: hsl(0,0%,100%,0.95);
     margin-bottom: 0;
 }
 
