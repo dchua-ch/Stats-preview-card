@@ -63,7 +63,7 @@ img {
 
 .img-div {
     width:100%;
-    background-color: rgb(123, 3, 184);
+    background-color: rgb(121, 3, 180);
   
     z-index: 1;
     border-radius: var(--corner-radius) var(--corner-radius) 0 0;
@@ -105,10 +105,15 @@ img {
 
     img{
         height: calc(var(--desktop-element-height) + var(--desktop-text-container-padding)*2);
+        width: 100%;
+        border-radius: 0 var(--corner-radius) var(--corner-radius) 0;
+    }
+
+    .img-div {
+        height: calc(var(--desktop-element-height) + var(--desktop-text-container-padding)*2);
         width: var(--desktop-element-width);
         border-radius: 0 var(--corner-radius) var(--corner-radius) 0;
-        
-        
+
     }
 
     .text-container{
