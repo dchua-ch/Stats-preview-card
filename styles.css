@@ -3,7 +3,10 @@
     --desktop-element-width: 30%;
     --desktop-text-container-padding: 2em; /* Note that em means relative to size of font of element*/
     --mobile-width: 375px;
-    --corner-radius: 15px;
+    --corner-radius: 7.5px;
+
+    /* For text-margin, set width using rem as different font-sizes are used for different text elements */
+    --text-margin: 1rem; 
   
     
 }
@@ -11,7 +14,7 @@
 body{
     /* hue, saturation and lightness */
     background-color: hsl(233,47%,7%); 
-    /* background-color: teal; this background color is for testing */
+    /* background-color: teal;  */
     font-family: Inter;
     font-size:15px;
     display: flex;
@@ -68,6 +71,7 @@ img {
 .stats-container{
     display: flex;
     flex-direction: column;
+    padding: var(--text-margin)
 
 
 }
@@ -96,14 +100,15 @@ img {
         padding: var(--desktop-text-container-padding);
         border-radius: var(--corner-radius) 0 0 var(--corner-radius);
 
+
         
         
     }
     .stats-container{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        margin-top: 15%;
+        justify-content: space-between;
+        margin-top: 20%;
     
     
     }
@@ -118,13 +123,14 @@ img {
 .text-container > h1 {
     color: hsl(0,0%,100%);
     font-weight: 700;
-    margin: 20px;
+    margin: var(--text-margin);
 }
 
 .text-container > p {
     font-weight: 400;
     color: hsl(0,0%,100%,0.6);
-    margin: 20px;
+    margin: var(--text-margin);
+ 
     
 }
 
