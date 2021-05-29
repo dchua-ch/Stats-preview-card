@@ -127,17 +127,21 @@ img {
     margin: 20px;
     
 }
-.stat-block > h3{
-    font-weight: 400;
-    color: hsl(0,0%,100%,0.6);
-    /* font: lexend-deca; */
-}
+
 
 .stat-block > h2{
     font-weight: 700;
     color: hsl(0,0%,100%,0.75);
-    
-    
+    margin-bottom: 0;
+}
+
+.stat-block > h3{
+    font-weight: 400;
+    color: hsl(0,0%,100%,0.6);
+    font: Lexend-Deca;
+    margin-top: 0;
+    font-size: x-small;
+  
 }
 
 .accent {
