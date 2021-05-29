@@ -2,19 +2,16 @@
     --desktop-element-height: 400px;
     --desktop-element-width: 30%;
     --desktop-text-container-padding: 2em; /* Note that em means relative to size of font of element*/
-    --mobile-width: 375px;
+    --mobile-min-width: 330px;
     --corner-radius: 7.5px;
 
     /* For text-margin, set width using rem as different font-sizes are used for different text elements */
-    --text-side-margin: 10%; 
-  
-    
+    --text-side-margin: 10%;     
 }
 
 body{
     /* hue, saturation and lightness */
     background-color: hsl(233,47%,7%); 
-    /* background-color: teal;  */
     font-family: Inter;
     font-size:15px;
     display: flex;
@@ -26,46 +23,32 @@ body{
     margin: 0px;
     width: 100vw;
     height: 100vh;
-        
-    
-    
-   
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     flex-wrap: nowrap; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width:70%;
-    min-width: 330px;
-    /* height:100%; */
-
-
-    
-
+    min-width: var(--mobile-min-width);
 }
+
 img {
     width:100%;
     height: 100%;
     /* Use object-fit: cover to make image clip to maintain aspect ratio when resizing*/
     object-fit: cover; 
     border-radius: var(--corner-radius) var(--corner-radius) 0 0;
-    z-index: 2;
+    /* Change opacity to add color overlay to image */
     opacity: 0.5;
-    
-    
-    
-    
   
 }
 
 .img-div {
     width:100%;
     background-color: rgb(121, 3, 180);
-  
-    z-index: 1;
     border-radius: var(--corner-radius) var(--corner-radius) 0 0;
 
 
@@ -80,8 +63,6 @@ img {
     text-align: center;
     width:100%;
     border-radius: 0 0 var(--corner-radius) var(--corner-radius);
-   
-    
 }
 
 .stats-container{
@@ -89,9 +70,6 @@ img {
     flex-direction: column;
     padding-left: var(--text-side-margin);
     padding-right: var(--text-side-margin);
-
-
-
 }
 
 /* Work on desktop layout here */
@@ -104,16 +82,14 @@ img {
     }
 
     img{
-        height: calc(var(--desktop-element-height) + var(--desktop-text-container-padding)*2);
-        width: 100%;
         border-radius: 0 var(--corner-radius) var(--corner-radius) 0;
     }
 
     .img-div {
+        /* Calculate height to make .img-div and img same height as .text-container */
         height: calc(var(--desktop-element-height) + var(--desktop-text-container-padding)*2);
         width: var(--desktop-element-width);
         border-radius: 0 var(--corner-radius) var(--corner-radius) 0;
-
     }
 
     .text-container{
@@ -122,22 +98,13 @@ img {
         text-align: left;
         padding: var(--desktop-text-container-padding);
         border-radius: var(--corner-radius) 0 0 var(--corner-radius);
-
-
-        
-        
     }
     .stats-container{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 3rem;
-    
-    
+        margin-top: 3rem;  
     }
-
-
-   
 }
 
 
@@ -149,7 +116,6 @@ img {
     margin-left: var(--text-side-margin);
     margin-right: var(--text-side-margin);
     margin-top: 2rem;;
-
 }
 
 .text-container > p {
@@ -158,8 +124,6 @@ img {
     margin-left: var(--text-side-margin);
     margin-right: var(--text-side-margin);
     margin-top: 2rem;
- 
-    
 }
 
 
@@ -192,5 +156,5 @@ img {
 }
 
 .attribution span{
-    color:yellow;
+    color:rgba(0, 255, 191, 0.616);
 }
