@@ -31,13 +31,16 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-### Solution Screenshot
+### Solution Screenshot  
+*Mobile layout of stats preview card*  
 ![Mobile Stats Preview Card](images/stats-preview-mobile-1.png)  
-*Mobile layout of stats preview card*
+  
 
+  
 
-![Desktop Stats Preview Card](images/stats-preview-desktop-1.png)
 *Desktop layout of stats preview card*
+![Desktop Stats Preview Card](images/stats-preview-desktop-1.png)
+
 
 
 
