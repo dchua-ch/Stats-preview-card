@@ -1,10 +1,16 @@
-# Frontend Mentor - Stats preview card component solution by Daniel Chua
+# Frontend Mentor - Stats preview card component solution by dchua-ch
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Hi all, this is the first project I've built using HTML and CSS. This project is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). [Frontend Mentor](https://www.frontendmentor.io/solutions) is a site which helps people who are trying to develop Frontend development skills by providing them with designs to implement in HTML, CSS and JavaScript. 
+  
+The design I've implemented is a stat card consisting of an image and some text. The main challenge was to make the design responsive to different screen sizes. This was achieved using CSS Flexbox. Through this challenge, I also managed to practice some basic layout and styling skills as well as using Git and Github to manage the version control of the project.
+
+You can check out the project [here](https://dchua-ch.github.io/Stats-preview-card/). Any feedback is appreciated :) 
+
+
 
 ## Table of contents
 
-- [Frontend Mentor - Stats preview card component solution by Daniel Chua](#frontend-mentor---stats-preview-card-component-solution-by-daniel-chua)
+- [Frontend Mentor - Stats preview card component solution by dchua-ch](#frontend-mentor---stats-preview-card-component-solution-by-dchua-ch)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
@@ -15,7 +21,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
-  - [Author](#author)
 
 
 ## Overview
@@ -40,6 +45,7 @@ Users should be able to:
 
 ### Links
 - Live Site URL: (https://dchua-ch.github.io/Stats-preview-card/)
+- Github Repo: (https://github.com/dchua-ch/Stats-preview-card)
 
 ## My process
 I marked up and styled the mobile layout first. The mobile layout consists of an image and a div with text wrapped in a containing flexbox div, with class ".flex-container". The desktop layout was implemented by using a media query and changing the flex-direction.  
@@ -161,9 +167,6 @@ I looked at some of Kevin Powell's youtube videos to help me with this challenge
 - [flex-cheatsheet](https://yoksel.github.io/flex-cheatsheet/) A cheatsheet for CSS FlexBox which I referred to. 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) General HTML and CSS reference. Highly useful.
 
-## Author
-
-- LinkedIn - [Daniel Chua](https://www.linkedin.com/in/danielchua93/)
 
 
 
