@@ -62,13 +62,27 @@ I struggled with getting some parts of the design correct. Most notably the posi
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+1. Responsive layout using FlexBox
+The responsive layout was achieved by changing the flex-direction from column in mobile mode to row-reverse in desktop mode.
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.flex-container {
+    /* Mobile layout */
+    display: flex;
+    flex-wrap: nowrap; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:70%;
+    min-width: var(--mobile-min-width);
 }
+
+@media screen and (min-width: 922px){
+    .flex-container{
+        flex-direction: row-reverse;
+        width: 100%;
+
+    }
+    ...
 ```
 ```js
 const proudOfThisFunc = () => {
