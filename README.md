@@ -18,7 +18,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -58,7 +57,7 @@ As mentioned earlier, this is my first time I've implemented a design in HTML/CS
 
 I struggled with getting some parts of the design correct. Most notably the positioning of the elements. I highlight some of the challenges I overcame below.
 
-1. #### Responsive layout using FlexBox  ####
+1. #### Responsive layout using FlexBox
    The responsive layout was achieved by changing the flex-direction from column in mobile mode to row-reverse in desktop mode.
 ```css
 .flex-container {
@@ -82,7 +81,7 @@ I struggled with getting some parts of the design correct. Most notably the posi
 ```
 Note that .flex-container is a div which wraps the image and the text-containing div. I found it difficult to decide on the appropriate minimum width for the desktop layout. I decided on 922px after playing around with the site in FireFox's Responsive Design Mode. The design looks decent to me on most mobile, tablet and desktop screen sizes.
 
-2. #### Fixing image height to text-container height in desktop mode ####
+1. #### Fixing image height to text-container height in desktop mode
    One issue I had with the desktop layout was fixing the image height to the height of the text-containing div. This is because I wanted the text container to have padding for its content. However, the padding added to the height of the text-container. I solved this problem by defining CSS variables for the padding and height. I then calculated the height of the image using height + padding * 2 as shown below.
 ```css
 /* Within media query */
@@ -103,7 +102,7 @@ Note that .flex-container is a div which wraps the image and the text-containing
  ```
  There is probably better way to solve or avoid this issue in the future.
 
-3. #### Preserving aspect ratio of image when window is resized ####  
+1. #### Preserving aspect ratio of image when window is resized
    Another issue I had was preserving the aspect ratio of the image for different window or screen sizes. For an inline image on a webpage, the image can simply resize together with the screen while preserving the aspect ratio. However, in this case, the height (width) of the image has to match the height (width) of the text container in mobile (desktop) mode. In the end, I decided to set the object-fit property of the image to "cover". This would simply crop the image when it is resized while preserving aspect ratio. I'm not sure whether there's a better approach to doing this though!  
    ```css
    img {
@@ -116,12 +115,14 @@ Note that .flex-container is a div which wraps the image and the text-containing
     opacity: 0.5;
   
     }
-    ```
+    ```  
 
 
-4. #### Adding purple overlay to image ####
+2. #### Adding purple overlay to image
    It took me a while to figure out how to add a purple overlay to the image. The image in its original color is shown below.  
-   ![Original image](images/image-header-mobile.jpg).  
+   ![Original image](images/image-header-mobile.jpg).   
+   *Original Image*  
+
    In the end, I wrapped the image in a div with class ".img-div". I then changed the opacity of the image to 0.5 and gave .img-div the appropriate background color.
    ```css
    img {
@@ -142,7 +143,9 @@ Note that .flex-container is a div which wraps the image and the text-containing
    }
    ```
    The resulting image is shown below. 
-   ![Colored image](/images/colored-header-image.png)
+   ![Colored image](/images/colored-header-image.png)  
+   
+   *Image after overlay*
 
 
 
