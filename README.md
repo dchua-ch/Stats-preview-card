@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/stats-preview-desktop.png)
-![](./images/stats-preview-mobile.png)
+![Desktop Stats Preview Card](./images/stats-preview-desktop.png)
+![Mobile Stats Preview Card](./images/stats-preview-mobile.png)
 
 
 
