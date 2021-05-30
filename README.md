@@ -46,15 +46,15 @@ Users should be able to:
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+I marked up and styled the mobile layout first. The mobile layout consists of an image and a div with text wrapped in a containing div, with class ".text-container". I then turned .text-container into a flexbox container. The desktop layout was implemented by using a media query and changing the flex-direction.  
 
 ### Built with
+
 
 - CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
-I marked up and styled the mobile layout first. The mobile layout consists of an image and a div with text wrapped in a containing div, with class ".text-container". I then turned .text-container into a flexbox container. The desktop layout was implemented by using a media query and changing the flex-direction.
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
