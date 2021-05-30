@@ -39,9 +39,7 @@ Users should be able to:
 
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://dchua-ch.github.io/Stats-preview-card/)
 
 ## My process
 I marked up and styled the mobile layout first. The mobile layout consists of an image and a div with text wrapped in a containing flexbox div, with class ".flex-container". The desktop layout was implemented by using a media query and changing the flex-direction.  
