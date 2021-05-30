@@ -120,8 +120,30 @@ Note that .flex-container is a div which wraps the image and the text-containing
 
 
 4. #### Adding purple overlay to image ####
-   It took me a while to figure out how to add a purple overlay to the image. The original color of the image is shown below.  
-   ![Original image](images/image-header-mobile.jpg).
+   It took me a while to figure out how to add a purple overlay to the image. The image in its original color is shown below.  
+   ![Original image](images/image-header-mobile.jpg).  
+   In the end, I wrapped the image in a div with class ".img-div". I then changed the opacity of the image to 0.5 and gave .img-div the appropriate background color.
+   ```css
+   img {
+    width:100%;
+    height: 100%;
+    /* Use object-fit: cover to make image clip to maintain aspect ratio when resizing*/
+    object-fit: cover; 
+    border-radius: var(--corner-radius) var(--corner-radius) 0 0;
+    /* Change opacity to add color overlay to image */
+    opacity: 0.5;
+  
+   }
+
+   .img-div {
+       width:100%;
+       background-color: rgb(121, 3, 180);
+       border-radius: var(--corner-radius) var(--corner-radius) 0 0;
+   }
+   ```
+   The resulting image is shown below. 
+   ![Colored image](/images/colored-header-image.png)
+
 
 
 
