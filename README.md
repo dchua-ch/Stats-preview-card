@@ -31,9 +31,12 @@ Users should be able to:
 ### Screenshot
 I started by marking up and styling the mobile layout as shown below.
 ![Mobile Stats Preview Card](images/stats-preview-mobile.png)
+*Mobile layout of stats preview card*
 
 I then used a media query to style the desktop layout.
 ![Desktop Stats Preview Card](images/stats-preview-desktop.png)
+*Desktop layout of stats preview card*
+
 
 
 
