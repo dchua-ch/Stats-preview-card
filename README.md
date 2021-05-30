@@ -1,10 +1,10 @@
-# Frontend Mentor - Stats preview card component solution
+# Frontend Mentor - Stats preview card component solution by Daniel Chua
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
-- [Frontend Mentor - Stats preview card component solution](#frontend-mentor---stats-preview-card-component-solution)
+- [Frontend Mentor - Stats preview card component solution by Daniel Chua](#frontend-mentor---stats-preview-card-component-solution-by-daniel-chua)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
@@ -46,11 +46,9 @@ Users should be able to:
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-I marked up and styled the mobile layout first. The mobile layout consists of an image and a div with text wrapped in a containing div, with class ".text-container". I then turned .text-container into a flexbox container. The desktop layout was implemented by using a media query and changing the flex-direction.  
+I marked up and styled the mobile layout first. The mobile layout consists of an image and a div with text wrapped in a containing flexbox div, with class ".flex-container". The desktop layout was implemented by using a media query and changing the flex-direction.  
 
 ### Built with
-
-
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
@@ -60,13 +58,11 @@ As mentioned earlier, this is my first time I've implemented a design in HTML/CS
 
 I struggled with getting some parts of the design correct. Most notably the positioning of the elements. I highlight some of the challenges I overcame below.
 
-To see how you can add code snippets, see below:
-
-1. Responsive layout using FlexBox
-The responsive layout was achieved by changing the flex-direction from column in mobile mode to row-reverse in desktop mode.
+1. Responsive layout using FlexBox  
+   The responsive layout was achieved by changing the flex-direction from column in mobile mode to row-reverse in desktop mode.
 ```css
 .flex-container {
-    /* Mobile layout */
+    /* For mobile layout */
     display: flex;
     flex-wrap: nowrap; 
     flex-direction: column;
@@ -78,21 +74,35 @@ The responsive layout was achieved by changing the flex-direction from column in
 
 @media screen and (min-width: 922px){
     .flex-container{
+      /* For desktop layout */
         flex-direction: row-reverse;
         width: 100%;
-
     }
     ...
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+Note that .flex-container is a div which wraps the image and the text-containing div. I found it difficult to decide on the appropriate minimum width for the desktop layout. I decided on 922px after playing around with the site in FireFox's Responsive Design Mode. The design looks decent to me on most mobile, tablet and desktop screen sizes.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+2. Fixing image height to text-container height in desktop mode  
+   One issue I had with the desktop layout was fixing the image height to the height of the text-containing div. This is because I wanted the text container to have padding for its content. However, the padding added to the height of the text-container. I solved this problem by defining CSS variables for the padding and height. I then calculated the height of the image using height + padding * 2 as shown below.
+```css
+.img-div {
+     /* Calculate height to make .img-div and img same height as .text-container */
+     height: calc(var(--desktop-element-height) + var(--desktop-text-container-padding)*2);
+     width: var(--desktop-element-width);
+     border-radius: 0 var(--corner-radius) var(--corner-radius) 0;
+ }
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+ .text-container{
+     height: var(--desktop-element-height);;
+     width: var(--desktop-element-width);
+     text-align: left;
+     padding: var(--desktop-text-container-padding);
+     border-radius: var(--corner-radius) 0 0 var(--corner-radius);
+ }
+ ```
+ There is probably better way to solve or avoid this issue in the future.
+
+
 
 ### Continued development
 
