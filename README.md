@@ -29,11 +29,10 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 
 ### Screenshot
-I started by marking up and styling the mobile layout as shown below.
 ![Mobile Stats Preview Card](images/stats-preview-mobile.png)  
 *Mobile layout of stats preview card*
 
-I then used a media query to style the desktop layout.
+
 ![Desktop Stats Preview Card](images/stats-preview-desktop.png)
 *Desktop layout of stats preview card*
 
@@ -50,14 +49,12 @@ I then used a media query to style the desktop layout.
 
 ### Built with
 
-- Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+
+I marked up and styled the mobile layout first. The mobile layout consists of an image and a div with text wrapped in a containing div, with class ".text-container". I then turned .text-container into a flexbox container. The desktop layout was implemented by using a media query and changing the flex-direction.
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
