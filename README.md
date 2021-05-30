@@ -16,7 +16,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -144,7 +143,6 @@ Note that .flex-container is a div which wraps the image and the text-containing
    ```
    The resulting image is shown below. 
    ![Colored image](/images/colored-header-image.png)  
-   
    *Image after overlay*
 
 
@@ -153,27 +151,25 @@ Note that .flex-container is a div which wraps the image and the text-containing
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Moving forward, I would like to continue to improve my layout skills. I am still not entirely comfortable with relative units such as em, rem and %. I would also like to get more experience with CSS FlexBox and Grid. Further into the future, I would like to get some experience with coming up with my own designs and mockups. I would also like to work on projects involving using JavaScript to interact with elements on the page.  
+  
+On the whole, this was a great exercise and I'll definitely do more [Frontend Mentor](https://www.frontendmentor.io/solutions) challenges in the future.
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
-### Useful resources
+### Useful resources  
+I looked at some of Kevin Powell's youtube videos to help me with this challenge. He's a youtuber who focuses on CSS tips and tricks. I'd highly recommend his channel if you're getting into CSS or Frontend development.
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS em and rem explained](https://www.youtube.com/watch?v=_-aDOAMmDHI) - This helped me get an understanding of the relative em and rem units. I applied it when adjusting the positions of elements on the page.
+- [Responsive design made easy](https://www.youtube.com/watch?v=bn-DQCifeQQ&t=2244s) - A video tutorial on how to implement a responsive layout using HTML and CSS. I worked through this tutorial halfway through this challenge. It helped me gain an insight into the thought process which one might have when working on a responsive layout. I also picked up some small but helpful tips, such as using Firefox's Responsive design mode to test the layout.
+- [flex-cheatsheet](https://yoksel.github.io/flex-cheatsheet/) A cheatsheet for CSS FlexBox which I referred to. 
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) General HTML and CSS reference.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- LinkedIn - [Daniel Chua](https://www.linkedin.com/in/danielchua93/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
