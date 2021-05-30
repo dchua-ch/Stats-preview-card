@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Stats Preview Card](https://github.com/dchua-ch/Stats-preview-card/tree/main/images/stats-preview-desktop.png)
-![Mobile Stats Preview Card](https://github.com/dchua-ch/Stats-preview-card/tree/main/images/stats-preview-mobile.png)
+![Desktop Stats Preview Card](./images/stats-preview-desktop.png)
+![Mobile Stats Preview Card](./images/stats-preview-mobile.png)
 
 
 
