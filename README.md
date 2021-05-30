@@ -8,7 +8,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
+    - [Solution Screenshot](#solution-screenshot)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -28,7 +28,7 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-### Screenshot
+### Solution Screenshot
 ![Mobile Stats Preview Card](images/stats-preview-mobile.png)  
 *Mobile layout of stats preview card*
 
@@ -53,14 +53,12 @@ I marked up and styled the mobile layout first. The mobile layout consists of an
 
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
+As mentioned earlier, this is my first time I've implemented a design in HTML/CSS. As such, I've managed to learn and practice many of the basics for the first time. It is also my first time using Git and GitHub to manage the version control of a project.  
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I struggled with getting some parts of the design correct. Most notably the positioning of the elements. I highlight some of the challenges I overcame below.
 
 To see how you can add code snippets, see below:
 
