@@ -58,7 +58,7 @@ As mentioned earlier, this is my first time I've implemented a design in HTML/CS
 
 I struggled with getting some parts of the design correct. Most notably the positioning of the elements. I highlight some of the challenges I overcame below.
 
-1. Responsive layout using FlexBox  
+1. #### Responsive layout using FlexBox  ####
    The responsive layout was achieved by changing the flex-direction from column in mobile mode to row-reverse in desktop mode.
 ```css
 .flex-container {
@@ -82,9 +82,10 @@ I struggled with getting some parts of the design correct. Most notably the posi
 ```
 Note that .flex-container is a div which wraps the image and the text-containing div. I found it difficult to decide on the appropriate minimum width for the desktop layout. I decided on 922px after playing around with the site in FireFox's Responsive Design Mode. The design looks decent to me on most mobile, tablet and desktop screen sizes.
 
-2. Fixing image height to text-container height in desktop mode  
+2. #### Fixing image height to text-container height in desktop mode ####
    One issue I had with the desktop layout was fixing the image height to the height of the text-containing div. This is because I wanted the text container to have padding for its content. However, the padding added to the height of the text-container. I solved this problem by defining CSS variables for the padding and height. I then calculated the height of the image using height + padding * 2 as shown below.
 ```css
+/* Within media query */
 .img-div {
      /* Calculate height to make .img-div and img same height as .text-container */
      height: calc(var(--desktop-element-height) + var(--desktop-text-container-padding)*2);
@@ -102,6 +103,7 @@ Note that .flex-container is a div which wraps the image and the text-containing
  ```
  There is probably better way to solve or avoid this issue in the future.
 
+3. #### Adding purple overlay to image ####
 
 
 ### Continued development
