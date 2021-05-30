@@ -29,9 +29,12 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 
 ### Screenshot
-
-![Desktop Stats Preview Card](images/stats-preview-desktop.png)
+I started by marking up and styling the mobile layout as shown below.
 ![Mobile Stats Preview Card](images/stats-preview-mobile.png)
+
+I then used a media query to style the desktop layout.
+![Desktop Stats Preview Card](images/stats-preview-desktop.png)
+
 
 
 
