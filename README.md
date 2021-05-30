@@ -155,17 +155,13 @@ Moving forward, I would like to continue to improve my layout skills. I am still
   
 On the whole, this was a great exercise and I'll definitely do more [Frontend Mentor](https://www.frontendmentor.io/solutions) challenges in the future.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources  
 I looked at some of Kevin Powell's youtube videos to help me with this challenge. He's a youtuber who focuses on CSS tips and tricks. I'd highly recommend his channel if you're getting into CSS or Frontend development.
 
 - [CSS em and rem explained](https://www.youtube.com/watch?v=_-aDOAMmDHI) - This helped me get an understanding of the relative em and rem units. I applied it when adjusting the positions of elements on the page.
 - [Responsive design made easy](https://www.youtube.com/watch?v=bn-DQCifeQQ&t=2244s) - A video tutorial on how to implement a responsive layout using HTML and CSS. I worked through this tutorial halfway through this challenge. It helped me gain an insight into the thought process which one might have when working on a responsive layout. I also picked up some small but helpful tips, such as using Firefox's Responsive design mode to test the layout.
 - [flex-cheatsheet](https://yoksel.github.io/flex-cheatsheet/) A cheatsheet for CSS FlexBox which I referred to. 
-- [MDN Web Docs](https://developer.mozilla.org/en-US/) General HTML and CSS reference.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) General HTML and CSS reference. Highly useful.
 
 ## Author
 
