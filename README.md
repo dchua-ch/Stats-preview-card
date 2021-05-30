@@ -103,7 +103,27 @@ Note that .flex-container is a div which wraps the image and the text-containing
  ```
  There is probably better way to solve or avoid this issue in the future.
 
-3. #### Adding purple overlay to image ####
+3. #### Preserving aspect ratio of image when window is resized ####  
+   Another issue I had was preserving the aspect ratio of the image for different window or screen sizes. For an inline image on a webpage, the image can simply resize together with the screen while preserving the aspect ratio. However, in this case, the height (width) of the image has to match the height (width) of the text container in mobile (desktop) mode. In the end, I decided to set the object-fit property of the image to "cover". This would simply crop the image when it is resized while preserving aspect ratio. I'm not sure whether there's a better approach to doing this though!  
+   ```css
+   img {
+    width:100%;
+    height: 100%;
+    /* Use object-fit: cover to make image clip to maintain aspect ratio when resizing*/
+    object-fit: cover; 
+    border-radius: var(--corner-radius) var(--corner-radius) 0 0;
+    /* Change opacity to add color overlay to image */
+    opacity: 0.5;
+  
+    }
+    ```
+
+
+4. #### Adding purple overlay to image ####
+   It took me a while to figure out how to add a purple overlay to the image. The original color of the image is shown below.  
+   ![Original image](images/image-header-mobile.jpg).
+
+
 
 
 ### Continued development
