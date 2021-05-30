@@ -36,7 +36,7 @@ Users should be able to:
 ![Mobile Stats Preview Card](images/stats-preview-mobile-1.png)  
   
 
-  
+
 
 *Desktop layout of stats preview card*
 ![Desktop Stats Preview Card](images/stats-preview-desktop-1.png)
@@ -48,7 +48,7 @@ Users should be able to:
 
 ### Links
 - Live Site URL: (https://dchua-ch.github.io/Stats-preview-card/)
-- Github Repo: (https://github.com/dchua-ch/Stats-preview-card)
+
 
 ## My process
 I marked up and styled the mobile layout first. The mobile layout consists of an image and a div with text wrapped in a containing flexbox div, with class ".flex-container". The desktop layout was implemented by using a media query and changing the flex-direction.  
